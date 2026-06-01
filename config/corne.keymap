@@ -33,17 +33,17 @@
 
         Num. {
             bindings = <
-&kp N1          &kp N2            &kp N3                &kp N4                 &kp N5             &kp N6             &kp N7  &kp N8  &kp N9  &kp N0  &trans  &trans
-&kp LEFT_BRACE  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE    &kp UP  &trans  &trans  &trans  &trans  &kp BACKSLASH
-&kp LESS_THAN   &kp GREATER_THAN  &kp SLASH             &kp LEFT               &kp DOWN           &kp RIGHT          &trans  &trans  &trans  &trans  &trans  &trans
+&kp N1          &kp N2            &kp N3                &kp N4                 &kp N5             &kp N6             &kp N7      &kp N8     &kp N9     &kp N0     &kp TAB  &trans
+&kp LEFT_BRACE  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE    &kp UP      &kp ENTER  &trans     &trans     &trans   &kp BACKSLASH
+&kp LESS_THAN   &kp GREATER_THAN  &kp SLASH             &kp LEFT               &kp DOWN           &kp RIGHT          &kp DELETE  &trans     &kp SPACE  &kp SPACE  &trans   &kp BACKSPACE
             >;
         };
 
         Sym. {
             bindings = <
-&kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp LS(NUMBER_3)  &kp DOLLAR  &kp PERCENT    &kp CARET    &kp AMPERSAND  &kp ASTERISK    &trans  &trans  &trans  &trans
-&trans           &trans             &trans            &kp SQT     &kp LS(TILDE)  &kp POUND    &kp MINUS      &kp UNDERSCORE  &trans  &trans  &trans  &trans
-&trans           &kp LS(COLON)      &kp SEMI          &kp LS(AT)  &kp PLUS       &kp EQUAL    &trans         &trans          &trans  &trans  &trans  &trans
+&kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp LS(NUMBER_3)  &kp DOLLAR      &kp PERCENT  &kp CARET    &kp AMPERSAND  &kp ASTERISK    &trans  &trans  &trans  &trans
+&trans           &trans             &trans            &kp APOSTROPHE  &kp TILDE    &kp POUND    &kp MINUS      &kp UNDERSCORE  &trans  &trans  &trans  &trans
+&trans           &kp COLON          &kp SEMI          &kp AT_SIGN     &kp PLUS     &kp EQUAL    &trans         &trans          &trans  &trans  &trans  &trans
             >;
         };
 
